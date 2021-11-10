@@ -1,0 +1,214 @@
+/*laterales, encabezado, pie de página y centro*/
+@import url ('https://fonts.googleapis.com/css2? family = Oswald & display = swap');
+
+/*encabezado*/
+header{
+    background: rgb(200, 210, 230);
+    width: 200px;
+    height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+	color: white;
+      
+}
+
+
+/*encabezado*/
+header{
+    background-color: #1c1920;
+    color: #FFF);
+    text-align: center;
+}
+
+/*centro*/
+#saction{
+    background-color: #545896;
+    grid-column:1/6;
+    text-align:justify;
+    color: rgb(17, 14, 2);
+}
+
+
+/*facebook aside*/
+aside{
+    background-color: #313D52;
+    grid-column: 4/5;
+    text-align: center;
+	color: #fff;
+}
+
+/*pie de página footer*/
+footer{
+    background-color: #1c1920;
+    text-align: center;
+    grid-column: 1/6;  
+	color: #fff
+}
+/*menú y submenú*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ul, ol{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	
+	background: #313D52;
+	color: #fff;
+	text-align: justify;
+	grid-template-columns: 1/6; 
+
+}
+    
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1200px;
+	margin: 30px auto;
+	height: 70px;
+	background: #fff;
+	text-align: center;
+	knob 
+	background: rgba(219,186,102,1);
+	background: -moz-linear-gradient(left, rgba(219,186,102,1) 0%, rgba(186,129,23,1) 50%, rgba(216,181,103,1) 86%, rgba(219,187,112,1) 90%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,186,102,1)), color-stop(50%, rgba(186,129,23,1)), color-stop(86%, rgba(216,181,103,1)), color-stop(90%, rgba(219,187,112,1)));
+	background: -webkit-linear-gradient(left, rgba(219,186,102,1) 0%, rgba(186,129,23,1) 50%, rgba(216,181,103,1) 86%, rgba(219,187,112,1) 90%);
+	background: -o-linear-gradient(left, rgba(219,186,102,1) 0%, rgba(186,129,23,1) 50%, rgba(216,181,103,1) 86%, rgba(219,187,112,1) 90%);
+	background: -ms-linear-gradient(left, rgba(219,186,102,1) 0%, rgba(186,129,23,1) 50%, rgba(216,181,103,1) 86%, rgba(219,187,112,1) 90%);
+	background: linear-gradient(to right, rgba(219,186,102,1) 0%, rgba(186,129,23,1) 50%, rgba(216,181,103,1) 86%, rgba(219,187,112,1) 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbba66', endColorstr='#dbbb70', GradientType=1 );
+		
+}
+
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 22px 20px;
+	color: #102058;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #4330ac;
+	background: #e4c562;
+	width: 100%;
+	
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background:  #2d3035;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/* Submenu2*/
+.submenu1{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+}
+
+/* Submenu2*/
+.submenu2{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity: 1;
+}
+
+/* Submenu3*/
+.submenu3{
+	position: absolute;
+	background: #333333;
+	width: 150%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu3 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu3{
+	visibility: visible;
+	opacity: 1;
+}

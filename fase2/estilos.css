@@ -1,4 +1,12 @@
 body{
-    background: url(fondo/fondo2.jpg);
-    background-size: 100%;
+    background-color: rgb(235, 227, 145); 
+ color: rgb(17, 14, 5);
+}
+    
+header{
+    text-align: center;
+}
+
+section{
+    text-align: justify;
 }
